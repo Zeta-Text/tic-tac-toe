@@ -1,0 +1,257 @@
+
+
+body {
+    background-color: darkgray;
+    margin: 0;
+    
+    background-image: url("https://i3.lensdump.com/i/tug5RC.jpg");
+    font-family: 'Kalam';
+
+}
+
+
+
+#container {
+    width: 100vw;
+    height: 80vh;
+    font-family: 'Kalam';
+}
+
+
+#boardcontainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    font-family: 'Kalam';
+    margin: 0 auto;
+    width: 24.5vw;
+    padding-top: 40px;
+    
+}
+
+
+
+.button {
+    font-family: 'Kalam';
+    padding: 10px;
+    background-color: #fcfbf9;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    font-size: 60px;
+
+    
+}
+
+#pageCover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(35, 35, 36);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    color: rgb(3, 3, 3);
+    font-family: 'Kalam';
+    background-image: url("https://i3.lensdump.com/i/tug5RC.jpg")
+
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(83, 83, 83, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 300px;
+    margin-left: -250px; /*Half the value of width to center div*/
+    margin-top: -250px; /*Half the value of height to center div*/
+    z-index: 200;
+    border-radius: 10px;
+    border: solid rgb(252, 53, 39);
+    font-size: 100px;
+    text-align: center;
+}
+
+#popupclose {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Kalam';
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(252, 53, 39);
+    font-size: 40px;
+    color: white;
+}
+
+
+#name1Container {
+    font-family: 'Kalam';
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    
+    
+}
+
+#name2Container {
+    font-family: 'Kalam';
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+   
+    
+}
+
+
+#textBox1 {
+    font-size: 20px;
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    padding-top: 30px;
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    
+    
+}
+
+#textBox2 {
+    font-size: 20px;
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    padding-top: 30px;
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    
+}
+
+#p1NameInput {
+    border-radius: 7px;
+    height: 30px;
+    width: 95%;
+    padding-left: 10px;
+    font-family: 'Kalam';
+    letter-spacing: 0.1em;
+    
+    
+}
+
+#p2NameInput {
+    border-radius: 7px;
+    width: 95%;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'Kalam';
+    letter-spacing: 0.1em;
+    
+}
+
+#messageContainer {
+     
+    width: 50vh;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+    justify-content: center;
+       
+}
+
+#buttonContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#startButton {
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rgb(255, 23, 23);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Kalam';
+    letter-spacing: 6px;
+    
+}
+
+#startButton:hover {
+    background-color: rgb(252, 53, 39);
+   
+}
+
+#resetButton {
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rgb(255, 23, 23);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Kalam';
+    letter-spacing: 6px;
+    position: relative;
+}
+
+#resetContainer {
+    background-color: rgb(255, 158, 47);
+    width: 100vw;
+    height: 30vh;
+    display:inline-block;
+    
+}
+
+#p1cont {
+   
+    font-size: 40px;
+    width: 40%;
+    float: left;
+}
+
+#p2cont {
+   
+    font-size: 40px;
+    width: 40%;
+    float: right;
+}
+
+#header {
+    font-family: 'Kalam';
+    width: 100vw;
+    height: 30vh;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    display:inline-block;
+  
+    
+}
+
+#headerText {
+   
+    padding-top: 60px;
+}
